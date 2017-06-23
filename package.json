@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "intern": "intern config=intern-tests/intern.json"
+  },
+  "dependencies": {
+    "intern": "next"
+  }
+}

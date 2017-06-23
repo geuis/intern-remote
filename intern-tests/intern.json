@@ -1,0 +1,14 @@
+{
+  "bail": false,
+  "connectTimeout": 30000,
+  "debug": false,
+  "maxConcurrency": 4,
+  "environments": [
+    "chrome"
+  ],
+  "functionalSuites": "intern-tests/functional/**/*.js",
+  "tunnel": "selenium",
+  "tunnelOptions": {
+    "drivers": ["chrome"]
+  }
+}
